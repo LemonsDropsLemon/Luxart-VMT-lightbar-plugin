@@ -27,13 +27,13 @@ VMT_SCAN_RANGE = 50.0
 -- The index here must match what the vehicle customisation mod slot 49 returns.
 VMT_LIGHTBAR_MODELS = {
     [4]  = 'onx_pol_lbar_mdn1a',
-    [5]  = 'onx_pol_lbar_mdn1b_b',
+    [5]  = 'onx_pol_lbar_mdn1b',
     [6]  = 'onx_pol_lbar_mdn1c',
     [7]  = 'onx_pol_lbar_mdn2a',
     [8]  = 'onx_pol_lbar_os1a',
-    [9]  = 'onx_pol_lbar_mdn1c_b',
+    [9]  = 'onx_pol_lbar_os2a',
     [10] = 'onx_pol_lbar_os2b',
-    [11] = 'onx_pol_lbar_mdn1a_b',
+    [11] = 'onx_pol_lbar_os3a',
     [12] = 'onx_pol_lbar_mdn3a',
     [13] = 'onx_pol_lbar_mdn3b',
     [14] = 'onx_ems_lbar_mdn1a',
