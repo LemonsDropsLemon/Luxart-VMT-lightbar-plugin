@@ -22,7 +22,8 @@ Your file structure should look like this
 
 
 
-## Luxart FxManifest Replacement - used to only reference the new VMT plugin
+## Luxart Fxmanifest Replacement - used to only reference the new VMT plugin
+Replcae the Luxart FXmanifest with this, so it can see the new plugin!
 
 ```fx_version 'adamant'
 games { 'gta5' }
