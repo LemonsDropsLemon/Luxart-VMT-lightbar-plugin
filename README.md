@@ -8,6 +8,7 @@ If you use ONX, you must remove "shared, client, server" folders from their "onx
 
 
 ## Expected ONX layout
+Your onx-evp-b-lightbars file structure should look like this
 ```
 onx-evp-b-lightbars/
 ├── data
