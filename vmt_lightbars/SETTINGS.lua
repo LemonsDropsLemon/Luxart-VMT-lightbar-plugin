@@ -14,7 +14,7 @@ lights with LVC siren/light state automatically.
 vmtlb_masterswitch = true
 
 -- How often (ms) the main loop ticks when at least one lightbar is attached
-VMT_CHECK_INTERVAL = 250
+VMT_CHECK_INTERVAL = 100
 
 -- How often (ms) nearby vehicles are scanned to attach props on other players' vehicles
 VMT_SCAN_INTERVAL = 500
