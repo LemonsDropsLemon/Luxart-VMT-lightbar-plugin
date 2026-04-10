@@ -1,6 +1,18 @@
 # Luxart-VMT-lightbar-plugin
 a plugin designed for a replacement to the ONX EVP vehicle pack, but can be used for other VMT type vehicles. 
 
+All you need, is to take this plugin, and place it inside of the "PLUGINS" folder in luxart.
+
+Your file structure should look like this:
+
+```── PLUGINS/
+	└── vmt_lightbars/
+		├── cl_ragemenu
+		├── cl_vmtlightbar
+		├── SETTINGS
+		└── sv_version
+```
+
 ## Luxart FxManifest Replacement - used to only reference the new VMT plugin
 
 ```fx_version 'adamant'
