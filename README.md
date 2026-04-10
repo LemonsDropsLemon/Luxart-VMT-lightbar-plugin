@@ -1,10 +1,9 @@
 # Luxart-VMT-lightbar-plugin
 a plugin designed for a replacement to the ONX EVP vehicle pack, but can be used for other VMT type vehicles. 
 
-Luxart FxManifest Replacement - used to only reference the new VMT plugin
+## Luxart FxManifest Replacement - used to only reference the new VMT plugin
 
-
-fx_version 'adamant'
+```fx_version 'adamant'
 games { 'gta5' }
 
 author 'TrevorBarns w/ credits see GitHub'
@@ -86,4 +85,4 @@ client_scripts {
 server_script {
 	'/UTIL/sv_lvc.lua',
 	'/PLUGINS/**/sv_*.lua'
-}
+}```
