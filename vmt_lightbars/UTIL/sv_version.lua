@@ -4,7 +4,6 @@ LUXART VEHICLE CONTROL V3 (FOR FIVEM)
 ---------------------------------------------------
 PLUGIN: vmt_lightbars
 FILE: sv_version.lua
-PURPOSE: Registers plugin version with LVC.
 ---------------------------------------------------
 ]]
 
