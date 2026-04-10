@@ -16,9 +16,7 @@ VMTLB.attachedProps   = {}     -- [vehHandle] = propHandle
 VMTLB.currentMod      = {}     -- [vehHandle] = modIndex
 VMTLB.lastLightState  = {}     -- [vehHandle] = bool
 
--- ──────────────────────────────────────────────
 -- Internal helpers
--- ──────────────────────────────────────────────
 
 local function getLightbarMod(veh)
     if not veh or veh == 0 or not DoesEntityExist(veh) then return nil end
@@ -137,22 +135,18 @@ function VMTLB:OnVehicleChange()
     end
 end
 
--- ──────────────────────────────────────────────
 -- LVC vehicle change event
--- ──────────────────────────────────────────────
 RegisterNetEvent('lvc:onVehicleChange')
 AddEventHandler('lvc:onVehicleChange', function()
     VMTLB:OnVehicleChange()
 end)
 
--- ──────────────────────────────────────────────
 -- Nearby vehicle scanner — attaches props to
 -- other players' vehicles within scan range
--- ──────────────────────────────────────────────
 local function scanNearbyVehicles()
     local ped    = PlayerPedId()
     local coords = GetEntityCoords(ped)
-    local range  = VMT_SCAN_RANGE * VMT_SCAN_RANGE  -- compare squared distances
+    local range  = VMT_SCAN_RANGE * VMT_SCAN_RANGE
 
     local pool = GetGamePool('CVehicle')
     for i = 1, #pool do
@@ -172,9 +166,7 @@ local function scanNearbyVehicles()
     end
 end
 
--- ──────────────────────────────────────────────
 -- Main maintenance loop
--- ──────────────────────────────────────────────
 CreateThread(function()
     local lastScan = 0
 
@@ -233,9 +225,7 @@ CreateThread(function()
     end
 end)
 
--- ──────────────────────────────────────────────
 -- Cleanup on resource stop
--- ──────────────────────────────────────────────
 AddEventHandler('onResourceStop', function(resource)
     if resource ~= GetCurrentResourceName() then return end
     for _, prop in pairs(VMTLB.attachedProps) do
