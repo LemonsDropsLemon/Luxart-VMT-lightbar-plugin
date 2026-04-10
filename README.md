@@ -7,25 +7,33 @@ All you need is to take this plugin, and place it inside of the "PLUGINS" folder
 If you use ONX, you must remove "shared, client, server" folders from their "onx-evp-b-lightbars" resource, as this handles their own lightbar resource. This needs to be deleted so you can use Luxart instead.
 
 
+## Expected ONX layout
+```
+onx-evp-b-lightbars/
+├── data
+├── stream
+├── .fxap
+└── fxmanifest.lua
+└── version.lua
+```
 
-
-
-## file structure
+## Luxart file structure with plugin
 Your file structure should look like this
-
 ```
-── LVC (luxart)
-	└── PLUGINS/
-		└── vmt_lightbars/
-			├── cl_ragemenu
-			├── cl_vmtlightbar
-			├── SETTINGS
-			└── sv_version
+Lvc (Luxart)/
+├── PLUGINS/
+	└── vmt_lightbars/
+		├── cl_ragemenu
+		├── cl_vmtlightbar
+		├── SETTINGS
+		└── sv_version
+├── stream/
+├── UI/
+├── UTIL/
+├── fxmanifest.lua
+├── SETTINGS.lua
+└── SIRENS.lua
 ```
-
-
-
-
 
 ## Luxart Fxmanifest Replacement - used to only reference the new VMT plugin
 Replcae the Luxart FXmanifest with this, so it can see the new plugin!
