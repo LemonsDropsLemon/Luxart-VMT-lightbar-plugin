@@ -3,6 +3,8 @@ A plugin originally designed as a replacement for the ONX EVP vehicle pack, aide
 
 All you need is to take this plugin, and place it inside of the "PLUGINS" folder in Luxart.
 
+For support, dont hesitate to [join my discord](https://discord.gg/SB3AUSYJYN) to open a ticket! 
+
 ### ONX
 If you use ONX, you must remove "shared, client, server" folders from their "onx-evp-b-lightbars" resource, as this handles their own lightbar resource. This needs to be deleted so you can use Luxart instead.
 
