@@ -1,7 +1,7 @@
 # Luxart-VMT-lightbar-plugin
-A plugin designed for a replacement to the ONX EVP vehicle pack, but can be used for other VMT type vehicles. 
+A plugin originally designed for a replacement to the ONX EVP vehicle pack, but can be used for other VMT type vehicles. 
 
-All you need, is to take this plugin, and place it inside of the "PLUGINS" folder in luxart.
+All you need, is to take this plugin, and place it inside of the "PLUGINS" folder in luxart. If you use onx, you must remove "shared, client, server" folders from their "onx-evp-b-lightbars" recource, as this handles their own lightbar recource. This needs to be deleted so you can use luxart instead.
 
 
 
