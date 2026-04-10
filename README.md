@@ -13,7 +13,7 @@ onx-evp-b-lightbars/
 ├── data
 ├── stream
 ├── .fxap
-└── fxmanifest.lua
+├── fxmanifest.lua
 └── version.lua
 ```
 
@@ -22,11 +22,11 @@ Your file structure should look like this
 ```
 Lvc (Luxart)/
 ├── PLUGINS/
-	└── vmt_lightbars/
-		├── cl_ragemenu
-		├── cl_vmtlightbar
-		├── SETTINGS
-		└── sv_version
+│	└── vmt_lightbars/
+│		├── cl_ragemenu
+│		├── cl_vmtlightbar
+│		├── SETTINGS
+│		└── sv_version
 ├── stream/
 ├── UI/
 ├── UTIL/
