@@ -26,10 +26,6 @@ Your file structure should look like this
 Lvc (Luxart)/
 ├── PLUGINS/
 │	└── vmt_lightbars/
-│		├── cl_ragemenu
-│		├── cl_vmtlightbar
-│		├── SETTINGS
-│		└── sv_version
 ├── stream/
 ├── UI/
 ├── UTIL/
