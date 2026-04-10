@@ -3,7 +3,8 @@
 LUXART VEHICLE CONTROL V3 (FOR FIVEM)
 ---------------------------------------------------
 PLUGIN: vmt_lightbars
-PURPOSE: Attaches physical lightbar prop objects to
+
+Attaches physical lightbar prop objects to
 vehicles based on mod slot 49 index. Syncs prop
 lights with LVC siren/light state automatically.
 ---------------------------------------------------
