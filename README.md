@@ -12,7 +12,8 @@ If you use ONX, you must remove "shared, client, server" folders from their "onx
 
 ## file structure
 Your file structure should look like this
-``
+
+```
 ── PLUGINS/
 	└── vmt_lightbars/
 		├── cl_ragemenu
@@ -28,7 +29,8 @@ Your file structure should look like this
 ## Luxart Fxmanifest Replacement - used to only reference the new VMT plugin
 Replcae the Luxart FXmanifest with this, so it can see the new plugin!
 
-```fx_version 'adamant'
+```
+fx_version 'adamant'
 games { 'gta5' }
 
 author 'TrevorBarns w/ credits see GitHub'
