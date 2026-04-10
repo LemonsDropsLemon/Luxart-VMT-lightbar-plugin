@@ -14,12 +14,13 @@ If you use ONX, you must remove "shared, client, server" folders from their "onx
 Your file structure should look like this
 
 ```
-── PLUGINS/
-	└── vmt_lightbars/
-		├── cl_ragemenu
-		├── cl_vmtlightbar
-		├── SETTINGS
-		└── sv_version
+── LVC (luxart)
+	└── PLUGINS/
+		└── vmt_lightbars/
+			├── cl_ragemenu
+			├── cl_vmtlightbar
+			├── SETTINGS
+			└── sv_version
 ```
 
 
