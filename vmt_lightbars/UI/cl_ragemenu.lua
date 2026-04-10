@@ -4,7 +4,6 @@ LUXART VEHICLE CONTROL V3 (FOR FIVEM)
 ---------------------------------------------------
 PLUGIN: vmt_lightbars
 FILE: cl_ragemenu.lua
-PURPOSE: RageUI submenu for VMT Lightbars plugin.
 ---------------------------------------------------
 ]]
 if not vmtlb_masterswitch then return end
