@@ -4,8 +4,6 @@ LUXART VEHICLE CONTROL V3 (FOR FIVEM)
 ---------------------------------------------------
 PLUGIN: vmt_lightbars
 FILE: cl_vmtlightbar.lua
-PURPOSE: Attach/detach physical lightbar prop objects
-based on mod slot 49. Syncs prop lights with LVC.
 ---------------------------------------------------
 ]]
 if not vmtlb_masterswitch then return end
